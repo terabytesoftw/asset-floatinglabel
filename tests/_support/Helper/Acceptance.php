@@ -6,5 +6,4 @@ namespace terabytesoft\assets\floatlabel\tests\Helper;
 
 class Acceptance extends \Codeception\Module
 {
-
 }
