@@ -7,7 +7,7 @@
 
 <p align="center">
     <a href="https://packagist.org/packages/terabytesoftw/asset-floatlabel" target="_blank">
-        <img src="https://poser.pugx.org/terabytesoftw/asset-floatlabel/v/unstable.svg" alt="Unstable Version">
+        <img src="https://poser.pugx.org/terabytesoftw/asset-floatlabel/v/unstable" alt="Unstable Version">
     </a>
     <a href="https://travis-ci.org/terabytesoftw/asset-floatlabel" target="_blank">
         <img src="https://travis-ci.org/terabytesoftw/asset-floatlabel.svg?branch=master" alt="Build Status">
@@ -31,10 +31,6 @@
 
 </br>
 
-<p align="center">
-App Web Application Basic of Yii Version 2.0. <a href="http://www.yiiframework.com/" title="Yii Framework" target="_blank">Yii Framework</a> application best for rapidly creating projects with Bootstrap 4.
-</p>
-
 ### **DIRECTORY STRUCTURE:**
 
 ```
@@ -45,80 +41,10 @@ tests/              contains tests codeception for the web application
 vendor/             contains dependent 3rd-party packages
 ```
 
-### **FEATURES:**
-
-
 ### **REQUIREMENTS:**
 
 - The minimum requirement by this project template that your Web server supports:
     - PHP 7.2 or higher.
-
-### **INSTALLATION:**
-
-<p align="justify">
-If you do not have <a href="http://getcomposer.org/" title="Composer" target="_blank">Composer</a>, you may install it by following the instructions at <a href="http://getcomposer.org/doc/00-intro.md#installation-nix" title="getcomposer.org" target="_blank">getcomposer.org</a>.
-</p>
-
-You can then install this project template using the following command:
-
-~~~
-composer create-project --prefer-dist --stability=dev terabytesoftw/app-template-basic myapp
-~~~
-
-<p align="justify">
-Now you should be able to access the application through the following URL, assuming `public` is the directory
-directly under the Web root.
-</p>
-
-<p align="justify">
-<strong>App Web Application Basic (terabytesoftw/app-basic) is installed automatically together with the Web Project Skeleton Application Basic (terabytesoftw/app-template-basic), both try the necessary packages to start your Web Application Basic in Yii 2.0.</strong>
-</p>
-
-__*Virtual Host:*__
-
-~~~
-http://localhost/
-~~~
-
-__*Server Yii:*__
-
-Directory - [app-template-basic]
-
-~~~
-php -S 127.0.0.1:8080 -t public > /dev/null 2>&1&
-~~~
-
-### **CONFIGURATION:**
-
-- [Detailed Settings](docs/CONFIG.md).
-
-**NOTE:** 
-
-<p align="justify">
-All the configuration is customizable through parameters, there is no need to modify any configuration of Yii 2.0 Web Application Basic, if you need any extra configuration you can open an issue with pleasure we will add it.
-</p>
-
-Very important when changing any configuration run `composer du`, to apply it.
-
-### **GENERATE MESSAGES TRANSLATION:**
-
-<p align="justify">
-To generate the Yii 2.0 Web Application Basic translations, you can change the language settings in:
-<p>
-
-```
-config/messages.php - [app-template-basic]:
-
-'languages' => ['en'], 
-```
-<p align="justify">
- Automatically the generator will create the folder of your language in /messages - [app-template-basic], If any translation is needed, you can open an issue to add it.
-</p>
-
-```
-root directory - [app-template-basic]:
-./vendor/bin/yii message config/messages.php
-```
 
 ### **RUN TESTS CODECEPTION:**
 
@@ -126,16 +52,8 @@ root directory - [app-template-basic]:
 // download all composer dependencies root project
 $ composer update --prefer-dist -vvv
 
-// download & run crhomedriver version chrome desktop
-$ wget -P vendor/bin https://chromedriver.storage.googleapis.com/75.0.3770.90/chromedriver_linux64.zip
-$ unzip -o -q vendor/bin/chromedriver_linux64.zip
-$ vendor/bin/chromedriver --port=9515 --url-base=wd/hub/ > /dev/null 2>&1&
-
-// run web server cli php
-$ php -S 127.0.0.1:8080 -t tests/public > /dev/null 2>&1&
-
 // run all tests with code coverage
-$ vendor/bin/codecept run --coverage-xml
+$ vendor/bin/codecept run unit --coverage-xml
 ~~~
 
 ### **WEB SERVER SUPPORT:**
@@ -150,7 +68,7 @@ $ vendor/bin/codecept run --coverage-xml
 
 ### **LICENCE:**
 
-[![License](https://poser.pugx.org/terabytesoftw/asset-floatlabel/license.svg)](LICENSE.md)
+[![License](https://poser.pugx.org/terabytesoftw/asset-floatlabel/license)](LICENSE.md)
 [![YiiFramework](https://img.shields.io/badge/Powered_by-Yii_Framework-green.svg?style=flat)](https://www.yiiframework.com/)
-[![Total Downloads](https://poser.pugx.org/terabytesoftw/asset-floatlabel/downloads.svg)](https://packagist.org/packages/terabytesoftw/asset-floatlabel)
+[![Total Downloads](https://poser.pugx.org/terabytesoftw/asset-floatlabel/downloads)](https://packagist.org/packages/terabytesoftw/asset-floatlabel)
 [![StyleCI](https://github.styleci.io/repos/195535078/shield?branch=master)](https://github.styleci.io/repos/195535078)

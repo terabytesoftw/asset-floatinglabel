@@ -8,6 +8,6 @@ actor: AcceptanceTester
 modules:
     enabled:
         - PhpBrowser:
-            url: http://localhost/myapp
-        - \terabytesoft\assets\floatlabels\tests\Helper\Acceptance
-    step_decorators: ~        
+            url: http://localhost:8080
+        - \terabytesoft\assets\floatlabel\tests\Helper\Acceptance
+    step_decorators: ~
