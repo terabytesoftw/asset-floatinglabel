@@ -6,5 +6,4 @@ namespace terabytesoft\assets\floatlabel\tests\Helper;
 
 class Functional extends \Codeception\Module
 {
-
 }
